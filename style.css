@@ -1,5 +1,6 @@
 body{
-    background: black;
+    background: whitesmoke;
+    
     height:100vh;
     margin:0;
 }
@@ -55,7 +56,12 @@ img:hover{
 }
 
 #movies-searchable{
-    margin-top:20px
+    margin-top:20px;
+    margin-bottom: 50px;
+}
+
+.movie{
+    margin-bottom: 50px;
 }
 
 .content {
@@ -63,10 +69,21 @@ img:hover{
     position: relative;
     min-height: 200px;
     width: 100%;
-    border: 1px solid lightgrey;
+    border: 1px solid lightslategrey;
     padding: 20px;
 }
 
+#content-close{
+    cursor:pointer;
+}
+
+.content-div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+}
 .content-display {
     display: block;
 }
