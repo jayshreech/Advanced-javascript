@@ -1,0 +1,72 @@
+body{
+    background: black;
+    height:100vh;
+    margin:0;
+}
+.btn {
+    background-color: #fff;
+    color: black;
+    min-height: 38px;
+    font-weight: 400;
+    text-align: left;
+    cursor: pointer;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+.form-control {
+    width: 760px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    outline: none;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    border-color: yellow;
+}
+.form-group {
+    display: inline-flex;
+}
+
+section {
+    position: relative;
+    width: 100%;
+    margin-top: 25px;
+    
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    transition: 250ms all;
+}
+
+section img{
+    width:300px;
+}
+
+img:hover{
+    margin-left:0 40px;
+    transform: scale(1.2);
+    cursor:pointer;
+}
+
+#movies-searchable{
+    margin-top:20px
+}
+
+.content {
+    display: none;
+    position: relative;
+    min-height: 200px;
+    width: 100%;
+    border: 1px solid lightgrey;
+    padding: 20px;
+}
+
+.content-display {
+    display: block;
+}
