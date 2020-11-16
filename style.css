@@ -1,9 +1,41 @@
 body{
-    background: whitesmoke;
+    background: black;
     
     height:100vh;
     margin:0;
 }
+    
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    min-height: 50px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(23,16,16);
+    color:white;
+  }
+  
+  
+  header .logo {
+      margin-left: 20px;
+      cursor: pointer;
+  }
+  
+  header .logo svg {
+      width: 64;
+      height: 32;
+  }
+  
+  header span.button-text {
+      white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    font-weight: bold;
+  }
 .btn {
     background-color: #fff;
     color: black;
@@ -15,6 +47,9 @@ body{
     font-size: 1rem;
     line-height: 1.5;
     border-radius: .25rem;
+}
+h2{
+    color:white
 }
 .form-control {
     width: 760px;
@@ -86,4 +121,41 @@ img:hover{
 }
 .content-display {
     display: block;
+}
+
+footer {
+	background: #000;
+	padding: 15px 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .social-icons, footer .about-site, footer .terms-of-use, footer .company, footer .footnote {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    margin-top: 20px;
+    color:white;
+}
+
+footer .social-icons a i {
+  font-size: 21px;
+	padding: 12px;
+	color: white;
+}
+
+footer .social-icons a:hover i {
+	background: #1b1b1b;
+	border-radius: 50%;
+}
+
+footer a {
+	padding-left: 25px;
+}
+
+footer a:hover {
+	text-decoration: underline;
 }
